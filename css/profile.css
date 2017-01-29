@@ -47,7 +47,6 @@
 }
 
 .description {
-	background-image: url("../img/back.jpg"); 
 	background-size: auto 50% ;
 
 }
@@ -55,9 +54,16 @@
 .btn {
 	background-color: orange
 }
+.profile-background {
+	background-image: url("../img/back.jpg"); 
+	background-size: contain;
+}
+
+.card-profile {
+	padding: 0px;
+}
 
 .jumbotron {
-	background-image: url("../img/back.jpg"); 
 	padding: 0;
 }
 
