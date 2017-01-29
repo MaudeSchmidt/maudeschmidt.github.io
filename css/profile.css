@@ -1,0 +1,43 @@
+
+
+.profile-pic{
+	max-width: 50%;
+}
+.card {
+	border: solid #cccccc 1px;
+	border-radius: 4px;
+
+	padding: 15px;
+	margin-bottom: 10px;
+	box-shadow: 2px 2px 15px #cccccc;
+
+}
+
+.MSoff{
+	background-color:  orange;
+}
+
+.sap {
+	background-color: pink;
+}
+
+.navcol {
+	background-color: orange; 
+}
+
+.navcoltext {
+	color: black; 
+}
+
+.description {
+	background-image: url("../img/back.jpg");
+	background-size: auto 50%
+}
+
+.btn {
+	background-color: orange
+}
+
+.jumbotron {
+	
+}
