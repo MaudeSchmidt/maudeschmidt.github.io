@@ -13,6 +13,14 @@
 
 }
 
+.card-title {
+	font-weight: bold 900; font-size: 200%
+}
+
+.profile-pic {
+	background-color: rgba(255, 255, 255, 0.6);
+}
+
 .MSoff{
 	background-color:  orange;
 }
@@ -21,8 +29,17 @@
 	background-color: pink;
 }
 
+.wbuild {
+	background-color: lightgreen;
+}
+
 .navcol {
 	background-color: orange; 
+
+}
+
+.css {
+	background-color: lightblue;
 }
 
 .navcoltext {
@@ -30,8 +47,9 @@
 }
 
 .description {
-	background-image: url("../img/back.jpg");
-	background-size: auto 50%
+	background-image: url("../img/back.jpg"); 
+	background-size: auto 50% ;
+
 }
 
 .btn {
@@ -39,5 +57,29 @@
 }
 
 .jumbotron {
-	
+	background-image: url("../img/back.jpg"); 
+	padding: 0;
 }
+
+.fadeout{
+	background-color: rgba(255, 255, 255, 0.6);
+	padding: 150px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
